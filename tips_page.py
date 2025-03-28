@@ -16,7 +16,7 @@ def tips_page():
                     "colors to an inspo outfit, but the overall look will still not be the same, if the shapes don’t match "
                     "the inspiration.")
     with c4:
-        st.image("images/Shapes.png)
+        st.image("images/Shapes.png")
         st.caption("This is an example of how a recreated outfit (center) doesn't match the inspiration (top left) due to"
                    "different shapes.")
 
