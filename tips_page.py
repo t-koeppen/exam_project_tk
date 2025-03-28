@@ -8,23 +8,30 @@ def tips_page():
 
     st.subheader("Shapes")
 
-    st.markdown("When recreating an outfit you’ve seen, it’s not just important to match the colours of your outfit to "
+    c2, c4 = st.columns(2)
+
+    with c3:
+        st.markdown("When recreating an outfit you’ve seen, it’s not just important to match the colours of your outfit to "
                     "your inspo but also the shapes. As @justmacrose explains in her TikTok Video, clothes can have similar "
                     "colors to an inspo outfit, but the overall look will still not be the same, if the shapes don’t match "
                     "the inspiration.")
+    with c4:
+        st.image("images/Shapes.png)
+        st.caption("This is an example of how a recreated outfit (center) doesn't match the inspiration (top left) due to"
+                   "different shapes.")
 
     st.subheader("Accessories")
 
-    c1, c2 = st.columns(2)
+    c2, c4 = st.columns(2)
 
-    with c1:
+    with c3:
         st.markdown("Don’t hold back with accessorizing your outfits! Accessories can evaluate an outfit, make it more "
                     "interesting, and tie everything together. Accessories can include styling your hair, and make-up if you "
                     "like to wear it. Wear jewelry, belts, hair clips, scarves, hats, bags, glasses, maybe some fake tattoos - "
                     "whatever you like. Don’t be afraid to overdo it or to mix medals. You can repurpose accessories and wear "
                     "them in a way they weren’t originally intended to be worn (this goes for clothes as well).")
 
-    with c2:
+    with c4:
         st.image("images/Accessories.png")
 
     st.subheader("Getting the clothes")
